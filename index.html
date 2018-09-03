@@ -5,10 +5,24 @@
     <title>htmljs2</title>
 </head>
 <body>
-<h1>Hello</h1>
-<div>
+<h1 id="h1">Hello title</h1>
 
-</div>
+<input id="display" type="text">
 
+    <div>
+        <button onclick="sayHello()"  onmouseenter="mouseEnter()"> Say Hello </button>
+        <button onclick="read()"> Read </button>
+        <button onclick="addToList()"> Add </button>
+
+
+        <ul  id="list">
+            <li>First</li>
+            <li>Second</li>
+
+        </ul>
+
+    </div>
+
+<script src="scripts.js"></script>
 </body>
 </html>
